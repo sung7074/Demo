@@ -1,0 +1,19 @@
+create database SPRING_BOOT_DB
+use SPRING_BOOT_DB;
+create table SALARY(ID int, NAME char(20), email char(30));
+
+
+
+
+
+
+
+
+
+
+
+
+# Sample DATA
+insert into SALARY values(1, "AAA", "AAA@example.com");
+insert into SALARY values(2, "BBB", "BBB@example.com");
+insert into SALARY values(3, "CCC", "CCC@example.com");
